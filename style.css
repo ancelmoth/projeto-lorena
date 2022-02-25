@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+@font-face {
+    font-family: 'lorena-site';
+    src: url('fontes/Lemon Tea.ttf') format('truetype');
+    font-weight: normal;
+    
+
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+:root{
+    --cor1: #F2B66D;
+    --cor2: #D98032;
+    --cor3: #bf471b;
+    --cor4: #400101;
+    --fonte-padrao: Arial, helvetica, sans-serif;
+    --fonte-destaque: 'lorena-site';
+    --fonte-baixada: 'Ubuntu', sans-serif; 
+}
+
+
+body{
+
+   background-color: var(--cor1);
+   
+}
+
+
+
+header h1 {
+   background-image: linear-gradient(to right, var(--cor2), var(--cor1));
+    font-family: 'lorena-site';
+    text-align: center;
+    border: 0px solid;
+    border-color: #bf471b3d;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 50px;
+
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header h2 {
+    font-family: 'lorena-site';
+    font-weight: normal;
+    border: 0px solid;
+    padding: 30PX;
+    font-size: 50px;
+}
+
+nav{
+    background-color: rgb(110, 110, 17);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav > a{
+    color: aquamarine;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav > a:hover{
+    color: blue;
+    transition-duration: .5s;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    text-align: justify;
+    text-indent: 2em;
+    padding: 10px 10px 10px 10px;
+}
+ article > h1{
+    text-align: center;
+}
+article > p{
+    line-height: 1.3em;
+}
+
+header > h2{
+    text-align: center;
+}
+
+aside > h2{
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(84, 110, 63, 0.521);
+    text-align: center;
+}
+
